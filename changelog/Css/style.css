@@ -10,39 +10,139 @@
 
 html{
 
-    font-size: large;
+    /* font-size: large; */
     font-family: 'Figtree', sans-serif;
-    text-align: center;
+    
     
 }
 
 
 body{
 
+    display: flex;
+    justify-content: center;
     
     margin:10px;
     border-radius: 15px;
-    border: 2px solid black;
+    height: 100vh;
+    background-color: #ffffff;
+    
 
 }
 
-header{
- 
-   
+.changelog-container{
 
+    max-width: 800px;
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid black ;
+    align-items: center;
+    
+  
+}
 
-
+header
+{   
+    text-align: center;
 }
 
 .main-heading-text{
-    
-    font-size: 2rem;
-    margin-top: 15vh;
-    
-}
-.sub-heading-text{
-    font-size: 0.8rem;
-    opacity: 0.5;
-    margin-top: 7vh;
+    /* border: 2px solid; */
+
+    font-size: 35px;
+    margin-top: 50px;
+    font-weight: 700;
+
 }
 
+.sub-heading-text{
+
+    opacity: 0.5;
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+
+.timeline-field{
+   
+
+    margin-top: 50px;
+}
+
+.timeline-item{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.date-text{
+   
+    opacity: 0.5;
+    padding-right: 20px ;
+    flex: 1;
+    text-align: right;
+    text-wrap: nowrap;
+   
+
+}
+.timeline-status{
+
+   text-align: left;
+   flex: 2;
+   text-align: left;
+   font-size: 16px;
+   color: #333;
+   
+    
+}
+
+.timeline-dot{
+
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.timeline-dot::before{
+    content: " ";
+    display: inline-block;
+    background-color: #333;
+    width: 2px;
+    height: 70px;
+    transform: translate(210%, -50%);
+    margin-right: 20px;
+    position: relative;
+    
+
+    
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+ button {
+    background-color: black;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+}
+button a {
+
+    text-decoration: none;
+    color: azure;
+    border-radius: 10px;
+}
