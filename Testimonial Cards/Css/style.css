@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+main{
+
+    /* max-width: ; */
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.Testimonial-container{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.field-1{
+
+    margin: 15px;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*Field-1*/
+.Testimonial-Card-1{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.speech-1{
+    border: 1px solid black;
+    max-width: 250px;
+    padding: 10px;
+    
+    border-radius: 10px;
+    background-color: black;
+    color: azure;
+
+}
+
+.Arrow{
+    width: 10px;
+    position: relative;
+    border: 10px solid rgb(0, 0, 0);
+    border-left-color: transparent;
+    border-right-color: transparent ;
+    border-bottom-color: transparent ;
+    transform: translate(70%, 0.2%);
+}
+
+p{
+
+    margin-top: 20px;
+    
+}
+.userinfo{
+    display: flex;
+    position: relative;
+    transform: translate(0%, -5%);
+}
+
+.username-detials-1{
+
+    position: relative;
+    transform: translate(5% ,8%);
+    font-size: 0.9rem;
+}
+
+.postion{
+
+    opacity: 0.5;
+}
+
+.Testimonial-Card-2{
+    
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 30px;
+    justify-content: space-between;
+
+
+}
+
+/*Field-2*/
+/*Field-3*/
