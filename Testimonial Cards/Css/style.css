@@ -22,10 +22,11 @@ main{
 }
 .Testimonial-container{
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid black transparent;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     max-width: 600px;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
 }
@@ -51,7 +52,6 @@ main{
     border: 1px solid black;
     max-width: 250px;
     padding: 10px;
-    
     border-radius: 10px;
     background-color: black;
     color: azure;
@@ -107,4 +107,137 @@ p{
 }
 
 /*Field-2*/
+.field-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    height: 250px;
+}
+
+.user-img img{
+
+    
+    border-radius: 15px;
+    width: 200px;
+    height: 250px;
+
+}
+
+.Text-speech-2{
+
+    border-radius: 15px;
+    background-color: black;
+    
+    color: white;
+    width: 350px;
+}
+
+.Star{
+
+    margin: 20px;
+}
+.field-2-username{
+    
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.Job-title{
+    font-size: 0.8rem;
+    margin: 20px;
+    opacity: 0.5;
+}
+
+.field-2-speech{
+    margin: 20px;
+}
 /*Field-3*/
+.field-3{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+
+}
+
+
+.scroller{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.scroller-img-1 img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.5;
+
+}
+
+.scroller-img-2 img{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.scroller-img-3 img{
+    opacity: 0.5;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.scroller::after{
+    content: '>';
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    top: 15px;
+
+    
+
+}
+
+.scroller::before{
+    content: '<';
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    top: 15px;
+
+    
+
+}
+
+/* .arrow-field-3::after{
+    content: " ";
+    position: relative;
+    left: 30px;
+    top: 15px;
+    border: 1px solid;
+
+    height: 10px;
+}
+
+
+
+
+.scroller::before{
+    content: " ";
+    position: relative;
+    left: 30px;
+    top: 15px;
+    border: 1px solid;
+    transform: rotate();
+    height: 10px;
+
+} */
